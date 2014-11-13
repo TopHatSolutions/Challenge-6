@@ -5,14 +5,14 @@
     </span>
     <h2><%= customer.full_name %></h2>
     <%= image_tag customer.image %>
-    <% unless customer.phone_number.length.zero? %>
-      <strong>Phone Number:</strong> <%= customer.phone_number %> <br />
-    <% end %>
-    <% unless customer.email_address.length.zero? %>
-      <strong>Email Address:</strong> <%= customer.email_address %> <br />
-    <% end %>
-    <% unless customer.notes.length.zero? %>
-      <strong>Notes:</strong> <%= customer.notes %> <br />
-    <% end %>
+      <% unless customer.phone_number.length.zero? %>
+        <strong>Phone Number:</strong> <%= customer.phone_number %> <br />
+      <% end %>
+      <% unless customer.email_address.length.zero? %>
+        <strong>Email Address:</strong> <%= customer.email_address %> <br />
+      <% end %>
+      <% unless customer.notes.length.zero? %>
+        <strong>Notes:</strong> <%= customer.notes %> <br />
+      <% end %>
   </div>
 </section>

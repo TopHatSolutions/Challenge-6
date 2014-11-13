@@ -1,1 +1,8 @@
+<h1>Customers With Missing Emails</h1>
+<% sender = "ME" %>
+<nav>
+<%= link_to "New Customer", new_customer_path %> -
+<%= link_to "Alphabetical View", alphabetized_path %> -
+<%= link_to "Missing Emails", missing_email_path %>
+</nav>
 <%= render @customers %>
