@@ -1,9 +1,4 @@
 <h1>All Customers</h1>
 <% sender = "IN" %>
-<nav>
-<%= link_to "New Customer", new_customer_path %> -
-<%= link_to "All Customers", root_path %> -
-<%= link_to "Alphabetical View", alphabetized_path %> -
-<%= link_to "Missing Emails", missing_email_path %>
-</nav>
+<%= render 'shared/header' %>
 <%= render @customers %>
