@@ -1,0 +1,26 @@
+// Place all the styles related to the customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.customer {
+  width: 350px;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  padding: 25px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  border-radius: 25px;
+}
+.customer .links {
+  float: right;
+}
+.customer img {
+  clear: both;
+  width: 280px;
+  margin: 0 32px;
+  margin-bottom: 30px;
+}
+
+table {
+  clear: both;
+}
