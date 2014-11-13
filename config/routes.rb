@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'alphabetized' => 'finder#alphabetized'
 
+  get 'missing_email' => 'finder#missing_email'
+
   root to: 'finder#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
