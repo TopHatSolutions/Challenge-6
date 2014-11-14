@@ -11,6 +11,8 @@
       <% unless customer.email_address.length.zero? %>
         <strong>Email Address:</strong> <%= customer.email_address %> <br />
       <% end %>
+        <strong>Province:</strong>
+        <%= if customer.province_id.nil? then " None" else customer.province.name end %><br />
       <% unless customer.notes.length.zero? %>
         <strong>Notes:</strong> <%= customer.notes %> <br />
       <% end %>
